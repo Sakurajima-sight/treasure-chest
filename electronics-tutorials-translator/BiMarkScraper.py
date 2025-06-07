@@ -34,7 +34,6 @@ class BilingualMarkdownScraper:
         """调用API让模型把HTML转成图片保留的Markdown（支持图片前缀）"""
         prompt = (
             html +
-            f"\n\nBased on the content above, generate a markdown file. I only need the content inside — no extra commentary or additions. Keep all images, and ensure their prefix is `{self.image_prefix}`. Return the content directly in markdown format.\n"
             f"\n\n将上述html转成直接的 Markdown 格式，而不是保留 HTML 标签，保留所有原始内容，我只需要文件中的内容——不需要额外的评论或补充。保留所有图片，并确保它们的前缀为`{self.image_prefix}`，直接以 markdown 格式返回内容。\n"
         )
         chat_completion = self.client.chat.completions.create(
