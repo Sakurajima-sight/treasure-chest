@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("QWEN3_API_KEY")
 API_URL = "https://ai.erikpsw.works/v1/chat/completions"
 MODEL_NAME = os.getenv("MODEL_NAME", "qwen3-235b-a22b-non-thinking")
 
