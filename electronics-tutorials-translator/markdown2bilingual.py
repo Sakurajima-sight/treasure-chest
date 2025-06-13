@@ -4,12 +4,12 @@ import os
 import time
 import argparse
 from dotenv import load_dotenv
-
+from openai import OpenAI
 load_dotenv()
 
 API_KEY = os.getenv("QWEN3_API_KEY")
 API_URL = "https://ai.erikpsw.works/v1/chat/completions"
-MODEL_NAME = os.getenv("MODEL_NAME", "qwen3-235b-a22b-non-thinking")
+MODEL_NAME = os.getenv("MODEL_NAME", "qwen3-235b-a22b")
 
 def clean_and_extract_markdown(text):
     text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL).strip()
@@ -20,23 +20,32 @@ def clean_and_extract_markdown(text):
     else:
         return text.strip()
 
-def ask_model(prompt_text):
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {API_KEY}"
-    }
-    data = {
-        "model": MODEL_NAME,
-        "messages": [
-            {"role": "user", "content": prompt_text}
-        ]
-    }
-    response = requests.post(API_URL, headers=headers, json=data)
-    if response.status_code == 200:
-        result = response.json()
-        return result["choices"][0]["message"]["content"].strip()
-    else:
-        return f"请求失败，状态码: {response.status_code}, 内容: {response.text}"
+def ask_model(prompt_text, max_retries=3, retry_interval=2):
+    client = OpenAI(
+        api_key=API_KEY,
+        base_url="https://ai.erikpsw.works",
+    )
+    for attempt in range(1, max_retries + 1):
+        try:
+            completion = client.chat.completions.create(
+                model="qwen3-235b-a22b",
+                messages=[
+                    {"role": "user", "content": prompt_text},
+                ],
+                temperature=0.0,
+                stream=True  # 开启流式
+            )
+            full_reply_content = ""
+            for chunk in completion:
+                if chunk.choices and chunk.choices[0].delta.content:
+                    full_reply_content += chunk.choices[0].delta.content
+            return full_reply_content
+        except Exception as e:
+            print(f"请求异常：{e}（第{attempt}次尝试）")
+        if attempt < max_retries:
+            time.sleep(retry_interval)
+    # 超过最大重试次数仍失败，抛出异常
+    raise Exception(f"接口请求失败，已重试{max_retries}次仍未成功。")
 
 def process_html_to_markdown(html_path, output_path):
     with open(html_path, 'r', encoding='utf-8') as f:
@@ -51,7 +60,6 @@ def process_html_to_markdown(html_path, output_path):
             continue
         try:
             reply = ask_model(prompt)
-            time.sleep(2)
         except Exception as e:
             print(f"第{idx}组出错：{e}")
             continue
