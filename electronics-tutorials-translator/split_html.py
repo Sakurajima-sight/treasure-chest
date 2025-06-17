@@ -1,12 +1,13 @@
 import argparse
 from bs4 import BeautifulSoup
+import re
 
 def process_html(input_filename, output_filename, group_size, injected_text):
     # 1. 打开并读取 HTML 文件
     with open(input_filename, 'r', encoding='utf-8') as f:
         html = f.read()
 
-    # 2. 用 BeautifulSoup 解析
+    # 2. 用 BeautifulSoup 解析 HTML
     soup = BeautifulSoup(html, 'html.parser')
 
     # 3. 找到所有 class 为 'head-box clearfix' 或 'content-cont' 的 div 元素作为一级
@@ -32,7 +33,24 @@ def process_html(input_filename, output_filename, group_size, injected_text):
                 # ======== 主要修改：用双引号包裹组内容 ========
                 output_file.write('"\n')
                 for idx, child in enumerate(group, 1):
-                    output_file.write(child.prettify())
+                    # 保存 Markdown 图片链接
+                    html_content = str(child)
+
+                    # 提取 Markdown 图片链接，替换为占位符
+                    markdown_images = re.findall(r'!\[([^\]]+)\]\(([^)]+)\)', html_content)
+                    for idx, (alt, url) in enumerate(markdown_images):
+                        placeholder = f'{{{{MARKDOWN_IMAGE_{idx}}}}}'
+                        html_content = html_content.replace(f'![{alt}]({url})', placeholder)
+
+                    # 使用 prettify 对 HTML 进行格式化
+                    html_content = child.prettify()
+
+                    # 恢复 Markdown 图片链接
+                    for idx, (alt, url) in enumerate(markdown_images):
+                        placeholder = f'{{{{MARKDOWN_IMAGE_{idx}}}}}'
+                        html_content = html_content.replace(placeholder, f'![{alt}]({url})')
+
+                    output_file.write(html_content)
                 output_file.write('"\n')
                 # ========================================
 

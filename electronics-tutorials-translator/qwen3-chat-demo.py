@@ -75,6 +75,6 @@ if st.button("发送"):
     if user_input:
         bot_response = ask_model(user_input, selected_model)
         message(user_input, is_user=True)
-        message(bot_response)
+        message(clean_and_extract_markdown(bot_response))
     else:
         st.warning("请输入消息后点击发送。")

@@ -47,13 +47,16 @@ def html_table2img(input_html, output_img_dir, output_html):
     table_list = soup.find_all("table")
     img_paths = []
     prefix = os.path.splitext(os.path.basename(output_html))[0]
+
+    output_html_dir = os.path.dirname(output_html) 
     for idx, table in enumerate(table_list, 1):
         img_name = f"{prefix}_table{idx}.png"
         img_path = os.path.join(output_img_dir, img_name)
         save_table_as_img(str(table), img_path)
-        rel_img_path = os.path.relpath(img_path, os.path.dirname(output_html))
-        img_tag = soup.new_tag("img", src=rel_img_path)
-        table.replace_with(img_tag)
+        rel_img_path = os.path.relpath(img_path, output_html_dir)
+        rel_img_path = rel_img_path.replace("\\", "/") 
+        img_tag = soup.new_tag("img", src=f"./{rel_img_path}")
+        table.replace_with(img_tag) 
     with open(output_html, "w", encoding="utf-8") as f:
         f.write(str(soup))
 
