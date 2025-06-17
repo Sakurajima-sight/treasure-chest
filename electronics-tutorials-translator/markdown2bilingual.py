@@ -29,9 +29,7 @@ def ask_model(prompt_text, max_retries=3, retry_interval=2):
         try:
             completion = client.chat.completions.create(
                 model="qwen3-235b-a22b",
-                messages=[
-                    {"role": "user", "content": prompt_text},
-                ],
+                messages=[{"role": "user", "content": prompt_text}],
                 temperature=0.0,
                 stream=True  # 开启流式
             )
@@ -44,16 +42,29 @@ def ask_model(prompt_text, max_retries=3, retry_interval=2):
             print(f"请求异常：{e}（第{attempt}次尝试）")
         if attempt < max_retries:
             time.sleep(retry_interval)
-    # 超过最大重试次数仍失败，抛出异常
     raise Exception(f"接口请求失败，已重试{max_retries}次仍未成功。")
+
+def filter_markdown(content):
+    # 1. 修复标题中可能出现的重复标题部分
+    # 将 "### 英文标题 ### 中文标题" 形式的标题修复为 "### 英文标题 中文标题"
+    content = re.sub(r'(#{1,6} .+?)\s*#{1,6} (.+)', r'\1 \2', content)
+
+    # 2. 删除重复的图片标签，只保留一张
+    content = re.sub(r'(!\[.*?\]\(.*?\))\s*\1+', r'\1', content)
+
+    return content
 
 def process_html_to_markdown(html_path, output_path):
     with open(html_path, 'r', encoding='utf-8') as f:
         content = f.read()
+    
+    # 这里用正则表达式将文件内容按组分割
     pattern = r'第\s*\d+\s*组内容\s*([\s\S]*?)(?=第\s*\d+\s*组内容|$)'
     groups = re.findall(pattern, content)
+
     if os.path.exists(output_path):
         os.remove(output_path)
+
     for idx, group_content in enumerate(groups, 1):
         prompt = group_content.strip()
         if not prompt:
@@ -63,11 +74,20 @@ def process_html_to_markdown(html_path, output_path):
         except Exception as e:
             print(f"第{idx}组出错：{e}")
             continue
+
+        # 清洗和提取模型返回的markdown内容
         reply_clean = clean_and_extract_markdown(reply)
+
+        # 过滤返回的内容
+        filtered_content = filter_markdown(reply_clean)
+
+        # 将过滤后的内容写入输出文件
         with open(output_path, 'a', encoding='utf-8') as md:
-            md.write(reply_clean + "\n\n")
+            md.write(filtered_content + "\n\n")
+        
         print(f"第{idx}组内容已处理并写入Markdown。")
         print(reply_clean)
+    
     print("全部处理完成！")
 
 if __name__ == "__main__":

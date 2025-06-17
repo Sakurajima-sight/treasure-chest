@@ -9,12 +9,28 @@ def split_markdown_by_headers(filepath, num_per_section, output_path, prompt):
     header_indices = [i for i, line in enumerate(lines) if re.match(r'^#{1,6} ', line)]
     header_indices.append(len(lines))  # 加上结尾索引
 
+    # 收集第一个标题之前的所有内容
+    first_section_start = 0
+    if header_indices:
+        first_section_start = header_indices[0]
+
+    # 准备存储各个部分
     sections = []
+    # 处理标题之间的部分
     for i in range(0, len(header_indices) - 1, num_per_section):
-        start = header_indices[i]
-        end = header_indices[i + num_per_section] if i + num_per_section < len(header_indices) else len(lines)
-        section = ''.join(lines[start:end])
-        
+        if i == 0 and first_section_start > 0:
+            # 对于 i == 0，先处理第一部分
+            section = ''.join(lines[0:first_section_start])
+            
+            # 将后面的部分追加到该部分
+            start = header_indices[i]
+            end = header_indices[i + num_per_section] if i + num_per_section < len(header_indices) else len(lines)
+            section += ''.join(lines[start:end])  # 追加这一部分内容
+            
+        else:
+            start = header_indices[i]
+            end = header_indices[i + num_per_section] if i + num_per_section < len(header_indices) else len(lines)
+            section = ''.join(lines[start:end])
         # 将内容部分包裹在双引号中
         section = f'"{section.strip()}"'
         
