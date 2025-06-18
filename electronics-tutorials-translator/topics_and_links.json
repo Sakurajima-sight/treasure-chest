@@ -1,0 +1,92 @@
+{
+    "AC Circuits": {
+        "topic_url": "https://www.electronics-tutorials.ws/accircuits/ac-waveform.html"
+    },
+    "Amplifiers": {
+        "topic_url": "https://www.electronics-tutorials.ws/amplifier/amp_1.html"
+    },
+    "Attenuators": {
+        "topic_url": "https://www.electronics-tutorials.ws/attenuators/attenuator.html"
+    },
+    "Binary Numbers": {
+        "topic_url": "https://www.electronics-tutorials.ws/binary/bin_1.html"
+    },
+    "Boolean Algebra": {
+        "topic_url": "https://www.electronics-tutorials.ws/boolean/bool_1.html"
+    },
+    "Capacitors": {
+        "topic_url": "https://www.electronics-tutorials.ws/capacitor/cap_1.html"
+    },
+    "Combinational Logic": {
+        "topic_url": "https://www.electronics-tutorials.ws/combination/comb_1.html"
+    },
+    "Connectivity": {
+        "topic_url": "https://www.electronics-tutorials.ws/connectivity/i2c-voltage-level-translators.html"
+    },
+    "Counters": {
+        "topic_url": "https://www.electronics-tutorials.ws/counter/count_1.html"
+    },
+    "DC Circuits": {
+        "topic_url": "https://www.electronics-tutorials.ws/dccircuits/dcp_1.html"
+    },
+    "Diodes": {
+        "topic_url": "https://www.electronics-tutorials.ws/diode/diode_1.html"
+    },
+    "Electromagnetism": {
+        "topic_url": "https://www.electronics-tutorials.ws/electromagnetism/magnetism.html"
+    },
+    "Filters": {
+        "topic_url": "https://www.electronics-tutorials.ws/filter/filter_1.html"
+    },
+    "Inductors": {
+        "topic_url": "https://www.electronics-tutorials.ws/inductor/inductor.html"
+    },
+    "Input and Output Devices": {
+        "topic_url": "https://www.electronics-tutorials.ws/io/io_1.html"
+    },
+    "Logic Gates": {
+        "topic_url": "https://www.electronics-tutorials.ws/logic/logic_1.html"
+    },
+    "Miscellaneous Circuits": {
+        "topic_url": "https://www.electronics-tutorials.ws/blog/passive-devices.html"
+    },
+    "Operational Amplifiers": {
+        "topic_url": "https://www.electronics-tutorials.ws/opamp/opamp_1.html"
+    },
+    "Oscillator": {
+        "topic_url": "https://www.electronics-tutorials.ws/oscillator/oscillators.html"
+    },
+    "Power Electronics": {
+        "topic_url": "https://www.electronics-tutorials.ws/power/thyristor.html"
+    },
+    "Power Supplies": {
+        "topic_url": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-1.html"
+    },
+    "RC Networks": {
+        "topic_url": "https://www.electronics-tutorials.ws/rc/rc_1.html"
+    },
+    "Resistors": {
+        "topic_url": "https://www.electronics-tutorials.ws/resistor/res_1.html"
+    },
+    "Resources": {
+        "topic_url": "https://www.electronics-tutorials.ws/resources/basic-schematic-symbols.html"
+    },
+    "Sequential Logic": {
+        "topic_url": "https://www.electronics-tutorials.ws/sequential/seq_1.html"
+    },
+    "Systems": {
+        "topic_url": "https://www.electronics-tutorials.ws/systems/electronic-system.html"
+    },
+    "Tools": {
+        "topic_url": "https://www.electronics-tutorials.ws/tools/coil-inductance-calculator.html"
+    },
+    "Transformers": {
+        "topic_url": "https://www.electronics-tutorials.ws/transformer/transformer-basics.html"
+    },
+    "Transistors": {
+        "topic_url": "https://www.electronics-tutorials.ws/transistor/tran_1.html"
+    },
+    "Waveform Generators": {
+        "topic_url": "https://www.electronics-tutorials.ws/waveforms/waveforms.html"
+    }
+}

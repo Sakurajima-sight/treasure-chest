@@ -1,0 +1,1500 @@
+{
+    "AC Circuits": {
+        "topic_url": "https://www.electronics-tutorials.ws/accircuits/ac-waveform.html",
+        "articles": [
+            {
+                "title": "1.AC Waveform and AC Circuit Theory",
+                "link": "https://www.electronics-tutorials.ws/accircuits/ac-waveform.html"
+            },
+            {
+                "title": "2.Sinusoidal Waveforms",
+                "link": "https://www.electronics-tutorials.ws/accircuits/sinusoidal-waveform.html"
+            },
+            {
+                "title": "3.Phase Difference and Phase Shift",
+                "link": "https://www.electronics-tutorials.ws/accircuits/phase-difference.html"
+            },
+            {
+                "title": "4.Phasor Diagrams and Phasor Algebra",
+                "link": "https://www.electronics-tutorials.ws/accircuits/phasors.html"
+            },
+            {
+                "title": "5.Complex Numbers and Phasors",
+                "link": "https://www.electronics-tutorials.ws/accircuits/complex-numbers.html"
+            },
+            {
+                "title": "6.AC Resistance and Impedance",
+                "link": "https://www.electronics-tutorials.ws/accircuits/ac-resistance.html"
+            },
+            {
+                "title": "7.AC Inductance and Inductive Reactance",
+                "link": "https://www.electronics-tutorials.ws/accircuits/ac-inductance.html"
+            },
+            {
+                "title": "8.AC Capacitance and Capacitive Reactance",
+                "link": "https://www.electronics-tutorials.ws/accircuits/ac-capacitance.html"
+            },
+            {
+                "title": "9.Series RLC Circuit Analysis",
+                "link": "https://www.electronics-tutorials.ws/accircuits/series-circuit.html"
+            },
+            {
+                "title": "10.Parallel RLC Circuit Analysis",
+                "link": "https://www.electronics-tutorials.ws/accircuits/parallel-circuit.html"
+            },
+            {
+                "title": "11.Series Resonance Circuit",
+                "link": "https://www.electronics-tutorials.ws/accircuits/series-resonance.html"
+            },
+            {
+                "title": "12.Parallel Resonance Circuit",
+                "link": "https://www.electronics-tutorials.ws/accircuits/parallel-resonance.html"
+            },
+            {
+                "title": "13.RMS Voltage Tutorial",
+                "link": "https://www.electronics-tutorials.ws/accircuits/rms-voltage.html"
+            },
+            {
+                "title": "14.Average Voltage Tutorial",
+                "link": "https://www.electronics-tutorials.ws/accircuits/average-voltage.html"
+            },
+            {
+                "title": "15.Reactive Power",
+                "link": "https://www.electronics-tutorials.ws/accircuits/reactive-power.html"
+            },
+            {
+                "title": "16.Harmonics",
+                "link": "https://www.electronics-tutorials.ws/accircuits/harmonics.html"
+            },
+            {
+                "title": "17.Passive Components in AC Circuits",
+                "link": "https://www.electronics-tutorials.ws/accircuits/passive-components.html"
+            },
+            {
+                "title": "18.Power in AC Circuits",
+                "link": "https://www.electronics-tutorials.ws/accircuits/power-in-ac-circuits.html"
+            },
+            {
+                "title": "19.Power Triangle and Power Factor",
+                "link": "https://www.electronics-tutorials.ws/accircuits/power-triangle.html"
+            },
+            {
+                "title": "20.Power Factor Correction",
+                "link": "https://www.electronics-tutorials.ws/accircuits/power-factor-correction.html"
+            },
+            {
+                "title": "21.Impedance and Complex Impedance",
+                "link": "https://www.electronics-tutorials.ws/accircuits/impedance.html"
+            },
+            {
+                "title": "22.Form Factor of a Waveform",
+                "link": "https://www.electronics-tutorials.ws/accircuits/form-factor.html"
+            },
+            {
+                "title": "23.Crest Factor of a Waveform",
+                "link": "https://www.electronics-tutorials.ws/accircuits/crest-factor.html"
+            },
+            {
+                "title": "24.Sine Wave",
+                "link": "https://www.electronics-tutorials.ws/accircuits/sine-wave.html"
+            }
+        ]
+    },
+    "Amplifiers": {
+        "topic_url": "https://www.electronics-tutorials.ws/amplifier/amp_1.html",
+        "articles": [
+            {
+                "title": "1.Introduction to the Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_1.html"
+            },
+            {
+                "title": "2.Common Emitter Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_2.html"
+            },
+            {
+                "title": "3.Common Source JFET Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_3.html"
+            },
+            {
+                "title": "4.Amplifier Distortion",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_4.html"
+            },
+            {
+                "title": "5.Class A Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_5.html"
+            },
+            {
+                "title": "6.Class B Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_6.html"
+            },
+            {
+                "title": "7.Crossover Distortion in Amplifiers",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_7.html"
+            },
+            {
+                "title": "8.Amplifiers Summary",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amp_8.html"
+            },
+            {
+                "title": "9.Emitter Resistance",
+                "link": "https://www.electronics-tutorials.ws/amplifier/emitter-resistance.html"
+            },
+            {
+                "title": "10.Amplifier Classes",
+                "link": "https://www.electronics-tutorials.ws/amplifier/amplifier-classes.html"
+            },
+            {
+                "title": "11.Transistor Biasing",
+                "link": "https://www.electronics-tutorials.ws/amplifier/transistor-biasing.html"
+            },
+            {
+                "title": "12.Input Impedance of an Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/input-impedance-of-an-amplifier.html"
+            },
+            {
+                "title": "13.Frequency Response",
+                "link": "https://www.electronics-tutorials.ws/amplifier/frequency-response.html"
+            },
+            {
+                "title": "14.MOSFET Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/mosfet-amplifier.html"
+            },
+            {
+                "title": "15.Class AB Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/class-ab-amplifier.html"
+            },
+            {
+                "title": "16.Common Collector Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/common-collector-amplifier.html"
+            },
+            {
+                "title": "17.Common Base Amplifier",
+                "link": "https://www.electronics-tutorials.ws/amplifier/common-base-amplifier.html"
+            },
+            {
+                "title": "18.Phase Splitter",
+                "link": "https://www.electronics-tutorials.ws/amplifier/phase-splitter.html"
+            }
+        ]
+    },
+    "Attenuators": {
+        "topic_url": "https://www.electronics-tutorials.ws/attenuators/attenuator.html",
+        "articles": [
+            {
+                "title": "1.Passive Attenuators",
+                "link": "https://www.electronics-tutorials.ws/attenuators/attenuator.html"
+            },
+            {
+                "title": "2.L-pad Attenuator",
+                "link": "https://www.electronics-tutorials.ws/attenuators/l-pad-attenuator.html"
+            },
+            {
+                "title": "3.T-pad Attenuator",
+                "link": "https://www.electronics-tutorials.ws/attenuators/t-pad-attenuator.html"
+            },
+            {
+                "title": "4.Bridged-T Attenuator",
+                "link": "https://www.electronics-tutorials.ws/attenuators/bridged-t-attenuator.html"
+            },
+            {
+                "title": "5.Pi-pad Attenuator",
+                "link": "https://www.electronics-tutorials.ws/attenuators/pi-pad-attenuator.html"
+            },
+            {
+                "title": "6.Passive Attenuator Tutorial",
+                "link": "https://www.electronics-tutorials.ws/attenuators/passive-attenuator.html"
+            }
+        ]
+    },
+    "Binary Numbers": {
+        "topic_url": "https://www.electronics-tutorials.ws/binary/bin_1.html",
+        "articles": [
+            {
+                "title": "1.Binary Numbers",
+                "link": "https://www.electronics-tutorials.ws/binary/bin_1.html"
+            },
+            {
+                "title": "2.Binary to Decimal Conversion",
+                "link": "https://www.electronics-tutorials.ws/binary/bin_2.html"
+            },
+            {
+                "title": "3.Hexadecimal Numbers",
+                "link": "https://www.electronics-tutorials.ws/binary/bin_3.html"
+            },
+            {
+                "title": "4.Octal Number System",
+                "link": "https://www.electronics-tutorials.ws/binary/bin_4.html"
+            },
+            {
+                "title": "5.Binary Numbers Tutorial",
+                "link": "https://www.electronics-tutorials.ws/binary/bin_5.html"
+            },
+            {
+                "title": "6.Signed Binary Numbers",
+                "link": "https://www.electronics-tutorials.ws/binary/signed-binary-numbers.html"
+            },
+            {
+                "title": "7.Binary Coded Decimal",
+                "link": "https://www.electronics-tutorials.ws/binary/binary-coded-decimal.html"
+            },
+            {
+                "title": "8.Binary Fractions",
+                "link": "https://www.electronics-tutorials.ws/binary/binary-fractions.html"
+            }
+        ]
+    },
+    "Boolean Algebra": {
+        "topic_url": "https://www.electronics-tutorials.ws/boolean/bool_1.html",
+        "articles": [
+            {
+                "title": "1.Logic AND Function",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_1.html"
+            },
+            {
+                "title": "2.Logic OR Function",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_2.html"
+            },
+            {
+                "title": "3.Logic NOT Function",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_3.html"
+            },
+            {
+                "title": "4.Logic NAND Function",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_4.html"
+            },
+            {
+                "title": "5.Logic NOR Function",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_5.html"
+            },
+            {
+                "title": "6.Laws of Boolean Algebra",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_6.html"
+            },
+            {
+                "title": "7.Boolean Algebra Truth Tables",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_7.html"
+            },
+            {
+                "title": "8.Boolean Algebra Examples",
+                "link": "https://www.electronics-tutorials.ws/boolean/bool_8.html"
+            },
+            {
+                "title": "9.DeMorgan’s Theorem",
+                "link": "https://www.electronics-tutorials.ws/boolean/demorgan.html"
+            },
+            {
+                "title": "10.Switching Theory",
+                "link": "https://www.electronics-tutorials.ws/boolean/switching-theory.html"
+            },
+            {
+                "title": "11.Sum of Product",
+                "link": "https://www.electronics-tutorials.ws/boolean/sum-of-product.html"
+            },
+            {
+                "title": "12.Product of Sum",
+                "link": "https://www.electronics-tutorials.ws/boolean/product-of-sum.html"
+            },
+            {
+                "title": "13.Boolean Algebra Simplification",
+                "link": "https://www.electronics-tutorials.ws/boolean/boolean-algebra-simplification.html"
+            }
+        ]
+    },
+    "Capacitors": {
+        "topic_url": "https://www.electronics-tutorials.ws/capacitor/cap_1.html",
+        "articles": [
+            {
+                "title": "1.Introduction to Capacitors",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_1.html"
+            },
+            {
+                "title": "2.Types of Capacitor",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_2.html"
+            },
+            {
+                "title": "3.Capacitor Characteristics",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_3.html"
+            },
+            {
+                "title": "4.Capacitance and Charge",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_4.html"
+            },
+            {
+                "title": "5.Capacitor Colour Codes",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_5.html"
+            },
+            {
+                "title": "6.Capacitors in Parallel",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_6.html"
+            },
+            {
+                "title": "7.Capacitors in Series",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_7.html"
+            },
+            {
+                "title": "8.Capacitance in AC Circuits",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_8.html"
+            },
+            {
+                "title": "9.Capacitor Tutorial Summary",
+                "link": "https://www.electronics-tutorials.ws/capacitor/cap_9.html"
+            },
+            {
+                "title": "10.Capacitive Voltage Divider",
+                "link": "https://www.electronics-tutorials.ws/capacitor/capacitive-voltage-divider.html"
+            },
+            {
+                "title": "11.Ultracapacitors",
+                "link": "https://www.electronics-tutorials.ws/capacitor/ultracapacitors.html"
+            }
+        ]
+    },
+    "Combinational Logic": {
+        "topic_url": "https://www.electronics-tutorials.ws/combination/comb_1.html",
+        "articles": [
+            {
+                "title": "1.Combinational Logic Circuits",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_1.html"
+            },
+            {
+                "title": "2.The Multiplexer",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_2.html"
+            },
+            {
+                "title": "3.The Demultiplexer",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_3.html"
+            },
+            {
+                "title": "4.Priority Encoder",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_4.html"
+            },
+            {
+                "title": "5.Binary Decoder",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_5.html"
+            },
+            {
+                "title": "6.Display Decoder",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_6.html"
+            },
+            {
+                "title": "7.Binary Adder",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_7.html"
+            },
+            {
+                "title": "8.Digital Comparator",
+                "link": "https://www.electronics-tutorials.ws/combination/comb_8.html"
+            },
+            {
+                "title": "9.Binary Subtractor",
+                "link": "https://www.electronics-tutorials.ws/combination/binary-subtractor.html"
+            },
+            {
+                "title": "10.Bus Transceiver",
+                "link": "https://www.electronics-tutorials.ws/combination/bus-transceiver.html"
+            },
+            {
+                "title": "11.Transmission Gate",
+                "link": "https://www.electronics-tutorials.ws/combination/transmission-gate.html"
+            },
+            {
+                "title": "12.Analogue to Digital Converter",
+                "link": "https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html"
+            },
+            {
+                "title": "13.Binary Weighted DAC",
+                "link": "https://www.electronics-tutorials.ws/combination/digital-to-analogue-converter.html"
+            },
+            {
+                "title": "14.R-2R DAC",
+                "link": "https://www.electronics-tutorials.ws/combination/r-2r-dac.html"
+            }
+        ]
+    },
+    "Connectivity": {
+        "topic_url": "https://www.electronics-tutorials.ws/connectivity/i2c-voltage-level-translators.html",
+        "articles": [
+            {
+                "title": "1.I2C Voltage Level Translators",
+                "link": "https://www.electronics-tutorials.ws/connectivity/i2c-voltage-level-translators.html"
+            },
+            {
+                "title": "2.AC-DC Converters",
+                "link": "https://www.electronics-tutorials.ws/connectivity/ac-dc-converters.html"
+            },
+            {
+                "title": "3.Real-Time Clocks",
+                "link": "https://www.electronics-tutorials.ws/connectivity/real-time-clocks.html"
+            }
+        ]
+    },
+    "Counters": {
+        "topic_url": "https://www.electronics-tutorials.ws/counter/count_1.html",
+        "articles": [
+            {
+                "title": "1.Frequency Division",
+                "link": "https://www.electronics-tutorials.ws/counter/count_1.html"
+            },
+            {
+                "title": "2.Asynchronous Counter",
+                "link": "https://www.electronics-tutorials.ws/counter/count_2.html"
+            },
+            {
+                "title": "3.Synchronous Counter",
+                "link": "https://www.electronics-tutorials.ws/counter/count_3.html"
+            },
+            {
+                "title": "4.Bidirectional Counters",
+                "link": "https://www.electronics-tutorials.ws/counter/count_4.html"
+            },
+            {
+                "title": "5.Simple LED Flasher",
+                "link": "https://www.electronics-tutorials.ws/counter/simple-led-flasher.html"
+            },
+            {
+                "title": "6.BCD Counter Circuit",
+                "link": "https://www.electronics-tutorials.ws/counter/bcd-counter-circuit.html"
+            },
+            {
+                "title": "7.MOD Counters",
+                "link": "https://www.electronics-tutorials.ws/counter/mod-counters.html"
+            },
+            {
+                "title": "8.7-segment Display Counter",
+                "link": "https://www.electronics-tutorials.ws/counter/7-segment-display.html"
+            },
+            {
+                "title": "9.4017 Johnson Counter",
+                "link": "https://www.electronics-tutorials.ws/counter/4017-johnson-counter.html"
+            }
+        ]
+    },
+    "DC Circuits": {
+        "topic_url": "https://www.electronics-tutorials.ws/dccircuits/dcp_1.html",
+        "articles": [
+            {
+                "title": "1.DC Circuit Theory",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_1.html"
+            },
+            {
+                "title": "2.Ohms Law and Power",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_2.html"
+            },
+            {
+                "title": "3.Electrical Units of Measure",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_3.html"
+            },
+            {
+                "title": "4.Kirchhoffs Circuit Law",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_4.html"
+            },
+            {
+                "title": "5.Mesh Current Analysis",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_5.html"
+            },
+            {
+                "title": "6.Nodal Voltage Analysis",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_6.html"
+            },
+            {
+                "title": "7.Thevenin’s Theorem",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_7.html"
+            },
+            {
+                "title": "8.Nortons Theorem",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_8.html"
+            },
+            {
+                "title": "9.Maximum Power Transfer",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_9.html"
+            },
+            {
+                "title": "10.Star Delta Transformation",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dcp_10.html"
+            },
+            {
+                "title": "11.Voltage Sources",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/voltage-source.html"
+            },
+            {
+                "title": "12.Current Sources",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/current-source.html"
+            },
+            {
+                "title": "13.Kirchhoff’s Current Law",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/kirchhoffs-current-law.html"
+            },
+            {
+                "title": "14.Kirchhoff’s Voltage Law",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/kirchhoffs-voltage-law.html"
+            },
+            {
+                "title": "15.Voltage Divider",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/voltage-divider.html"
+            },
+            {
+                "title": "16.Current Divider",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/current-divider.html"
+            },
+            {
+                "title": "17.Electrical Energy and Power",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/electrical-energy.html"
+            },
+            {
+                "title": "18.Superposition Theorem",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/superposition-theorem.html"
+            },
+            {
+                "title": "19.DC Series Circuit",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dc-series-circuit.html"
+            },
+            {
+                "title": "20.DC Parallel Circuit",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/dc-parallel-circuit.html"
+            },
+            {
+                "title": "21.Combination Series and Parallel Circuits",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/combination-series-and-parallel-circuits.html"
+            },
+            {
+                "title": "22.Nodes Loops and Branches",
+                "link": "https://www.electronics-tutorials.ws/dccircuits/nodes-loops-and-branches.html"
+            }
+        ]
+    },
+    "Diodes": {
+        "topic_url": "https://www.electronics-tutorials.ws/diode/diode_1.html",
+        "articles": [
+            {
+                "title": "1.Semiconductor Basics",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_1.html"
+            },
+            {
+                "title": "2.PN Junction Theory",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_2.html"
+            },
+            {
+                "title": "3.PN Junction Diode",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_3.html"
+            },
+            {
+                "title": "4.The Signal Diode",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_4.html"
+            },
+            {
+                "title": "5.Power Diodes and Rectifiers",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_5.html"
+            },
+            {
+                "title": "6.Full Wave Rectifier",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_6.html"
+            },
+            {
+                "title": "7.The Zener Diode",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_7.html"
+            },
+            {
+                "title": "8.The Light Emitting Diode",
+                "link": "https://www.electronics-tutorials.ws/diode/diode_8.html"
+            },
+            {
+                "title": "9.Bypass Diodes in Solar Panels",
+                "link": "https://www.electronics-tutorials.ws/diode/bypass-diodes.html"
+            },
+            {
+                "title": "10.Diode Clipping Circuits",
+                "link": "https://www.electronics-tutorials.ws/diode/diode-clipping-circuits.html"
+            },
+            {
+                "title": "11.The Schottky Diode",
+                "link": "https://www.electronics-tutorials.ws/diode/schottky-diode.html"
+            }
+        ]
+    },
+    "Electromagnetism": {
+        "topic_url": "https://www.electronics-tutorials.ws/electromagnetism/magnetism.html",
+        "articles": [
+            {
+                "title": "1.Magnetism",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/magnetism.html"
+            },
+            {
+                "title": "2.Electromagnetism",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/electromagnetism.html"
+            },
+            {
+                "title": "3.The Electromagnet",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/electromagnets.html"
+            },
+            {
+                "title": "4.Magnetic Hysteresis",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/magnetic-hysteresis.html"
+            },
+            {
+                "title": "5.Electromagnetic Induction",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/electromagnetic-induction.html"
+            },
+            {
+                "title": "6.Hall Effect Sensor",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/hall-effect.html"
+            },
+            {
+                "title": "7.Energy in a Magnetic Field",
+                "link": "https://www.electronics-tutorials.ws/electromagnetism/energy-in-a-magnetic-field.html"
+            }
+        ]
+    },
+    "Filters": {
+        "topic_url": "https://www.electronics-tutorials.ws/filter/filter_1.html",
+        "articles": [
+            {
+                "title": "1.Capacitive Reactance",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_1.html"
+            },
+            {
+                "title": "2.Passive Low Pass Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_2.html"
+            },
+            {
+                "title": "3.Passive High Pass Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_3.html"
+            },
+            {
+                "title": "4.Passive Band Pass Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_4.html"
+            },
+            {
+                "title": "5.Active Low Pass Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_5.html"
+            },
+            {
+                "title": "6.Active High Pass Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_6.html"
+            },
+            {
+                "title": "7.Active Band Pass Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_7.html"
+            },
+            {
+                "title": "8.Butterworth Filter Design",
+                "link": "https://www.electronics-tutorials.ws/filter/filter_8.html"
+            },
+            {
+                "title": "9.Second Order Filters",
+                "link": "https://www.electronics-tutorials.ws/filter/second-order-filters.html"
+            },
+            {
+                "title": "10.State Variable Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/state-variable-filter.html"
+            },
+            {
+                "title": "11.Band Stop Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/band-stop-filter.html"
+            },
+            {
+                "title": "12.Sallen and Key Filter",
+                "link": "https://www.electronics-tutorials.ws/filter/sallen-key-filter.html"
+            },
+            {
+                "title": "13.Decibels",
+                "link": "https://www.electronics-tutorials.ws/filter/decibels.html"
+            }
+        ]
+    },
+    "Inductors": {
+        "topic_url": "https://www.electronics-tutorials.ws/inductor/inductor.html",
+        "articles": [
+            {
+                "title": "1.The Inductor",
+                "link": "https://www.electronics-tutorials.ws/inductor/inductor.html"
+            },
+            {
+                "title": "2.Inductance of a Coil",
+                "link": "https://www.electronics-tutorials.ws/inductor/inductance.html"
+            },
+            {
+                "title": "3.Mutual Inductance",
+                "link": "https://www.electronics-tutorials.ws/inductor/mutual-inductance.html"
+            },
+            {
+                "title": "4.Inductors in Series",
+                "link": "https://www.electronics-tutorials.ws/inductor/series-inductors.html"
+            },
+            {
+                "title": "5.Inductors in Parallel",
+                "link": "https://www.electronics-tutorials.ws/inductor/parallel-inductors.html"
+            },
+            {
+                "title": "6.LR Series Circuit",
+                "link": "https://www.electronics-tutorials.ws/inductor/lr-circuits.html"
+            },
+            {
+                "title": "7.Inductive Reactance",
+                "link": "https://www.electronics-tutorials.ws/inductor/ac-inductors.html"
+            }
+        ]
+    },
+    "Input and Output Devices": {
+        "topic_url": "https://www.electronics-tutorials.ws/io/io_1.html",
+        "articles": [
+            {
+                "title": "1.Sensors and Transducers",
+                "link": "https://www.electronics-tutorials.ws/io/io_1.html"
+            },
+            {
+                "title": "2.Position Sensors",
+                "link": "https://www.electronics-tutorials.ws/io/io_2.html"
+            },
+            {
+                "title": "3.Temperature Sensors",
+                "link": "https://www.electronics-tutorials.ws/io/io_3.html"
+            },
+            {
+                "title": "4.Light Sensors",
+                "link": "https://www.electronics-tutorials.ws/io/io_4.html"
+            },
+            {
+                "title": "5.Electrical Relay",
+                "link": "https://www.electronics-tutorials.ws/io/io_5.html"
+            },
+            {
+                "title": "6.Linear Solenoid Actuator",
+                "link": "https://www.electronics-tutorials.ws/io/io_6.html"
+            },
+            {
+                "title": "7.DC Motors",
+                "link": "https://www.electronics-tutorials.ws/io/io_7.html"
+            },
+            {
+                "title": "8.Sound Transducers",
+                "link": "https://www.electronics-tutorials.ws/io/io_8.html"
+            },
+            {
+                "title": "9.Transducers Summary",
+                "link": "https://www.electronics-tutorials.ws/io/io_9.html"
+            },
+            {
+                "title": "10.Input Interfacing Circuits",
+                "link": "https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html"
+            },
+            {
+                "title": "11.Output Interfacing Circuits",
+                "link": "https://www.electronics-tutorials.ws/io/output-interfacing-circuits.html"
+            },
+            {
+                "title": "12.Thermistors",
+                "link": "https://www.electronics-tutorials.ws/io/thermistors.html"
+            },
+            {
+                "title": "13.Linear Variable Differential Transformer",
+                "link": "https://www.electronics-tutorials.ws/io/linear-variable-differential-transformer.html"
+            },
+            {
+                "title": "14.Battery Operated Motor",
+                "link": "https://www.electronics-tutorials.ws/io/battery-operated-motor.html"
+            },
+            {
+                "title": "15.H-bridge Circuit",
+                "link": "https://www.electronics-tutorials.ws/io/h-bridge-circuit.html"
+            }
+        ]
+    },
+    "Logic Gates": {
+        "topic_url": "https://www.electronics-tutorials.ws/logic/logic_1.html",
+        "articles": [
+            {
+                "title": "1.Digital Logic Gates",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_1.html"
+            },
+            {
+                "title": "2.Logic AND Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_2.html"
+            },
+            {
+                "title": "3.Logic OR Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_3.html"
+            },
+            {
+                "title": "4.Logic NOT Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_4.html"
+            },
+            {
+                "title": "5.Logic NAND Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_5.html"
+            },
+            {
+                "title": "6.Logic NOR Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_6.html"
+            },
+            {
+                "title": "7.Exclusive-OR Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_7.html"
+            },
+            {
+                "title": "8.Exclusive-NOR Gate Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_8.html"
+            },
+            {
+                "title": "9.Digital Buffer Tutorial",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_9.html"
+            },
+            {
+                "title": "10.Digital Logic Gates Summary",
+                "link": "https://www.electronics-tutorials.ws/logic/logic_10.html"
+            },
+            {
+                "title": "11.Pull-up Resistors",
+                "link": "https://www.electronics-tutorials.ws/logic/pull-up-resistor.html"
+            },
+            {
+                "title": "12.Universal Logic Gates",
+                "link": "https://www.electronics-tutorials.ws/logic/universal-gates.html"
+            }
+        ]
+    },
+    "Miscellaneous Circuits": {
+        "topic_url": "https://www.electronics-tutorials.ws/blog/passive-devices.html",
+        "articles": [
+            {
+                "title": "1.Guide to Passive Devices",
+                "link": "https://www.electronics-tutorials.ws/blog/passive-devices.html"
+            },
+            {
+                "title": "2.Pulse Width Modulation",
+                "link": "https://www.electronics-tutorials.ws/blog/pulse-width-modulation.html"
+            },
+            {
+                "title": "3.Convert ATX PSU to Bench Supply",
+                "link": "https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html"
+            },
+            {
+                "title": "4.Variable Voltage Power Supply",
+                "link": "https://www.electronics-tutorials.ws/blog/variable-voltage-power-supply.html"
+            },
+            {
+                "title": "5.Optocoupler Tutorial",
+                "link": "https://www.electronics-tutorials.ws/blog/optocoupler.html"
+            },
+            {
+                "title": "6.Voltage Multiplier",
+                "link": "https://www.electronics-tutorials.ws/blog/voltage-multiplier-circuit.html"
+            },
+            {
+                "title": "7.Wheatstone Bridge",
+                "link": "https://www.electronics-tutorials.ws/blog/wheatstone-bridge.html"
+            },
+            {
+                "title": "8.I-V Characteristic Curves",
+                "link": "https://www.electronics-tutorials.ws/blog/i-v-characteristic-curves.html"
+            },
+            {
+                "title": "9.Christmas Lights Sequencer",
+                "link": "https://www.electronics-tutorials.ws/blog/christmas-lights-sequencer-circuit.html"
+            },
+            {
+                "title": "10.7-segment Display",
+                "link": "https://www.electronics-tutorials.ws/blog/7-segment-display-tutorial.html"
+            },
+            {
+                "title": "11.Unregulated Power Supply",
+                "link": "https://www.electronics-tutorials.ws/blog/unregulated-power-supply.html"
+            },
+            {
+                "title": "12.Relay Switch Circuit",
+                "link": "https://www.electronics-tutorials.ws/blog/relay-switch-circuit.html"
+            },
+            {
+                "title": "13.Voltmeter",
+                "link": "https://www.electronics-tutorials.ws/blog/voltmeter.html"
+            },
+            {
+                "title": "14.Ammeter",
+                "link": "https://www.electronics-tutorials.ws/blog/ammeter.html"
+            },
+            {
+                "title": "15.Batteries as Energy Storage Devices",
+                "link": "https://www.electronics-tutorials.ws/blog/batteries-as-energy-storage-devices.html"
+            },
+            {
+                "title": "16.Connecting Batteries Together",
+                "link": "https://www.electronics-tutorials.ws/blog/connecting-batteries-together.html"
+            },
+            {
+                "title": "17.Negative Temperature Coefficient",
+                "link": "https://www.electronics-tutorials.ws/blog/negative-temperature-coefficient.html"
+            },
+            {
+                "title": "18.Battery Energy Storage Systems",
+                "link": "https://www.electronics-tutorials.ws/blog/battery-energy-storage-systems.html"
+            }
+        ]
+    },
+    "Operational Amplifiers": {
+        "topic_url": "https://www.electronics-tutorials.ws/opamp/opamp_1.html",
+        "articles": [
+            {
+                "title": "1.Operational Amplifier Basics",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_1.html"
+            },
+            {
+                "title": "2.Inverting Operational Amplifier",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_2.html"
+            },
+            {
+                "title": "3.Non-inverting Operational Amplifier",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_3.html"
+            },
+            {
+                "title": "4.The Summing Amplifier",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_4.html"
+            },
+            {
+                "title": "5.The Differential Amplifier",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_5.html"
+            },
+            {
+                "title": "6.The Integrator Amplifier",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_6.html"
+            },
+            {
+                "title": "7.The Differentiator Amplifier",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_7.html"
+            },
+            {
+                "title": "8.Operational Amplifiers Summary",
+                "link": "https://www.electronics-tutorials.ws/opamp/opamp_8.html"
+            },
+            {
+                "title": "9.Operational Amplifier Building Blocks",
+                "link": "https://www.electronics-tutorials.ws/opamp/op-amp-building-blocks.html"
+            },
+            {
+                "title": "10.Op-amp Multivibrator",
+                "link": "https://www.electronics-tutorials.ws/opamp/op-amp-multivibrator.html"
+            },
+            {
+                "title": "11.Op-amp Comparator",
+                "link": "https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html"
+            },
+            {
+                "title": "12.Op-amp Monostable",
+                "link": "https://www.electronics-tutorials.ws/opamp/op-amp-monostable.html"
+            },
+            {
+                "title": "13.Passive Averager",
+                "link": "https://www.electronics-tutorials.ws/opamp/passive-averager.html"
+            }
+        ]
+    },
+    "Oscillator": {
+        "topic_url": "https://www.electronics-tutorials.ws/oscillator/oscillators.html",
+        "articles": [
+            {
+                "title": "1.LC Oscillator Basics",
+                "link": "https://www.electronics-tutorials.ws/oscillator/oscillators.html"
+            },
+            {
+                "title": "2.The Hartley Oscillator",
+                "link": "https://www.electronics-tutorials.ws/oscillator/hartley.html"
+            },
+            {
+                "title": "3.The Colpitts Oscillator",
+                "link": "https://www.electronics-tutorials.ws/oscillator/colpitts.html"
+            },
+            {
+                "title": "4.The RC Oscillator Circuit",
+                "link": "https://www.electronics-tutorials.ws/oscillator/rc_oscillator.html"
+            },
+            {
+                "title": "5.The Wien Bridge Oscillator",
+                "link": "https://www.electronics-tutorials.ws/oscillator/wien_bridge.html"
+            },
+            {
+                "title": "6.Quartz Crystal Oscillators",
+                "link": "https://www.electronics-tutorials.ws/oscillator/crystal.html"
+            },
+            {
+                "title": "7.Twin-T Oscillator",
+                "link": "https://www.electronics-tutorials.ws/oscillator/twin-t-oscillator.html"
+            },
+            {
+                "title": "8.Armstrong Oscillator",
+                "link": "https://www.electronics-tutorials.ws/oscillator/armstrong-oscillator.html"
+            }
+        ]
+    },
+    "Power Electronics": {
+        "topic_url": "https://www.electronics-tutorials.ws/power/thyristor.html",
+        "articles": [
+            {
+                "title": "1.Thyristor Tutorial",
+                "link": "https://www.electronics-tutorials.ws/power/thyristor.html"
+            },
+            {
+                "title": "2.Thyristor Circuit",
+                "link": "https://www.electronics-tutorials.ws/power/thyristor-circuit.html"
+            },
+            {
+                "title": "3.Triac Tutorial",
+                "link": "https://www.electronics-tutorials.ws/power/triac.html"
+            },
+            {
+                "title": "4.Insulated Gate Bipolar Transistor",
+                "link": "https://www.electronics-tutorials.ws/power/insulated-gate-bipolar-transistor.html"
+            },
+            {
+                "title": "5.Diac Tutorial",
+                "link": "https://www.electronics-tutorials.ws/power/diac.html"
+            },
+            {
+                "title": "6.Unijunction Transistor",
+                "link": "https://www.electronics-tutorials.ws/power/unijunction-transistor.html"
+            },
+            {
+                "title": "7.Switch Mode Power Supply",
+                "link": "https://www.electronics-tutorials.ws/power/switch-mode-power-supply.html"
+            },
+            {
+                "title": "8.Transient Suppression Devices",
+                "link": "https://www.electronics-tutorials.ws/power/transient-suppression.html"
+            },
+            {
+                "title": "9.Solid State Relay",
+                "link": "https://www.electronics-tutorials.ws/power/solid-state-relay.html"
+            },
+            {
+                "title": "10.Single Phase Rectification",
+                "link": "https://www.electronics-tutorials.ws/power/single-phase-rectification.html"
+            },
+            {
+                "title": "11.Three Phase Rectification",
+                "link": "https://www.electronics-tutorials.ws/power/three-phase-rectification.html"
+            },
+            {
+                "title": "12.DC Fast Chargers",
+                "link": "https://www.electronics-tutorials.ws/power/dc-fast-chargers.html"
+            }
+        ]
+    },
+    "Power Supplies": {
+        "topic_url": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-1.html",
+        "articles": [
+            {
+                "title": "1.Power Supplies for Beginners, Part 1",
+                "link": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-1.html"
+            },
+            {
+                "title": "2.Power Supplies for Beginners, Part 2",
+                "link": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-2.html"
+            },
+            {
+                "title": "3.Power Supplies for Beginners, Part 3",
+                "link": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-3.html"
+            },
+            {
+                "title": "4.Power Supplies for Beginners, Part 4",
+                "link": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-4.html"
+            },
+            {
+                "title": "5.Power Supplies for Beginners, Part 5",
+                "link": "https://www.electronics-tutorials.ws/supplies/power-supplies-for-beginners-part-5.html"
+            }
+        ]
+    },
+    "RC Networks": {
+        "topic_url": "https://www.electronics-tutorials.ws/rc/rc_1.html",
+        "articles": [
+            {
+                "title": "1.RC Charging Circuit",
+                "link": "https://www.electronics-tutorials.ws/rc/rc_1.html"
+            },
+            {
+                "title": "2.RC Discharging Circuit",
+                "link": "https://www.electronics-tutorials.ws/rc/rc_2.html"
+            },
+            {
+                "title": "3.RC Waveforms",
+                "link": "https://www.electronics-tutorials.ws/rc/rc_3.html"
+            },
+            {
+                "title": "4.RC Integrator",
+                "link": "https://www.electronics-tutorials.ws/rc/rc-integrator.html"
+            },
+            {
+                "title": "5.RC Differentiator",
+                "link": "https://www.electronics-tutorials.ws/rc/rc-differentiator.html"
+            },
+            {
+                "title": "6.Tau – The Time Constant",
+                "link": "https://www.electronics-tutorials.ws/rc/time-constant.html"
+            }
+        ]
+    },
+    "Resistors": {
+        "topic_url": "https://www.electronics-tutorials.ws/resistor/res_1.html",
+        "articles": [
+            {
+                "title": "1.Types of Resistor",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_1.html"
+            },
+            {
+                "title": "2.Resistor Colour Code",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_2.html"
+            },
+            {
+                "title": "3.Resistors in Series",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_3.html"
+            },
+            {
+                "title": "4.Resistors in Parallel",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_4.html"
+            },
+            {
+                "title": "5.Resistors in Series and Parallel",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_5.html"
+            },
+            {
+                "title": "6.Potential Difference",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_6.html"
+            },
+            {
+                "title": "7.Resistor Power Rating",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_7.html"
+            },
+            {
+                "title": "8.Resistors in AC Circuits",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_8.html"
+            },
+            {
+                "title": "9.Resistor Tutorial Summary",
+                "link": "https://www.electronics-tutorials.ws/resistor/res_9.html"
+            },
+            {
+                "title": "10.Varistor Tutorial",
+                "link": "https://www.electronics-tutorials.ws/resistor/varistor.html"
+            },
+            {
+                "title": "11.Resistor Colour Code Wheel",
+                "link": "https://www.electronics-tutorials.ws/resistor/resistor-colour-code-wheel.html"
+            },
+            {
+                "title": "12.Potentiometers",
+                "link": "https://www.electronics-tutorials.ws/resistor/potentiometer.html"
+            },
+            {
+                "title": "13.Resistivity",
+                "link": "https://www.electronics-tutorials.ws/resistor/resistivity.html"
+            },
+            {
+                "title": "14.LED Resistor",
+                "link": "https://www.electronics-tutorials.ws/resistor/led-resistor.html"
+            }
+        ]
+    },
+    "Resources": {
+        "topic_url": "https://www.electronics-tutorials.ws/resources/basic-schematic-symbols.html",
+        "articles": [
+            {
+                "title": "1.Basic Schematic Symbols",
+                "link": "https://www.electronics-tutorials.ws/resources/basic-schematic-symbols.html"
+            },
+            {
+                "title": "2.Transformer Schematic Symbols",
+                "link": "https://www.electronics-tutorials.ws/resources/transformer-symbols.html"
+            },
+            {
+                "title": "3.Semiconductor Schematic Symbols",
+                "link": "https://www.electronics-tutorials.ws/resources/semiconductor-symbols.html"
+            },
+            {
+                "title": "4.Electronics Tools and Simulators",
+                "link": "https://www.electronics-tutorials.ws/resources/electronics-tools.html"
+            },
+            {
+                "title": "5.4-band Resistor Colour Code Calculator",
+                "link": "https://www.electronics-tutorials.ws/resources/4-band-resistor-colour-code-calculator.html"
+            },
+            {
+                "title": "6.5-band Resistor Colour Code Calculator",
+                "link": "https://www.electronics-tutorials.ws/resources/5-band-resistor-colour-code-calculator.html"
+            },
+            {
+                "title": "7.6-band Resistor Colour Code Calculator",
+                "link": "https://www.electronics-tutorials.ws/resources/6-band-resistor-colour-code-calculator.html"
+            },
+            {
+                "title": "8.Standard Resistor Values",
+                "link": "https://www.electronics-tutorials.ws/resources/standard-resistor-values.html"
+            },
+            {
+                "title": "9.Printable Metric Graph Paper",
+                "link": "https://www.electronics-tutorials.ws/resources/printable-metric-graph-paper.html"
+            },
+            {
+                "title": "10.Printable Imperial Graph Paper",
+                "link": "https://www.electronics-tutorials.ws/resources/printable-imperial-graph-paper.html"
+            },
+            {
+                "title": "11.Printable Semi-Log Graph Paper",
+                "link": "https://www.electronics-tutorials.ws/resources/printable-semi-log-graph-paper.html"
+            },
+            {
+                "title": "12.Printable Log-Log Graph Paper",
+                "link": "https://www.electronics-tutorials.ws/resources/printable-log-log-graph-paper.html"
+            },
+            {
+                "title": "13.Printable Bode Plot Graph Paper",
+                "link": "https://www.electronics-tutorials.ws/resources/printable-bode-plot-graph-paper.html"
+            },
+            {
+                "title": "14.Online Basic Calculator",
+                "link": "https://www.electronics-tutorials.ws/resources/online-basic-calculator.html"
+            },
+            {
+                "title": "15.Online Scientific Calculator",
+                "link": "https://www.electronics-tutorials.ws/resources/online-scientific-calculator.html"
+            },
+            {
+                "title": "16.Algebra Properties and Facts",
+                "link": "https://www.electronics-tutorials.ws/resources/algebra-properties.html"
+            },
+            {
+                "title": "17.Geometry Reference Sheet",
+                "link": "https://www.electronics-tutorials.ws/resources/geometry-reference-sheet.html"
+            },
+            {
+                "title": "18.Trigonometry Definitions and Functions",
+                "link": "https://www.electronics-tutorials.ws/resources/trigonometry-definitions.html"
+            },
+            {
+                "title": "19.Trigonometry Laws and Identities",
+                "link": "https://www.electronics-tutorials.ws/resources/trigonometry-laws.html"
+            },
+            {
+                "title": "20.Calculus Derivatives and Limits",
+                "link": "https://www.electronics-tutorials.ws/resources/calculus-derivatives.html"
+            },
+            {
+                "title": "21.Calculus Integrals Reference Sheet",
+                "link": "https://www.electronics-tutorials.ws/resources/calculus-integrals.html"
+            }
+        ]
+    },
+    "Sequential Logic": {
+        "topic_url": "https://www.electronics-tutorials.ws/sequential/seq_1.html",
+        "articles": [
+            {
+                "title": "1.Sequential Logic Circuits",
+                "link": "https://www.electronics-tutorials.ws/sequential/seq_1.html"
+            },
+            {
+                "title": "2.The JK Flip Flop",
+                "link": "https://www.electronics-tutorials.ws/sequential/seq_2.html"
+            },
+            {
+                "title": "3.Multivibrators",
+                "link": "https://www.electronics-tutorials.ws/sequential/seq_3.html"
+            },
+            {
+                "title": "4.The D-type Flip Flop",
+                "link": "https://www.electronics-tutorials.ws/sequential/seq_4.html"
+            },
+            {
+                "title": "5.The Shift Register",
+                "link": "https://www.electronics-tutorials.ws/sequential/seq_5.html"
+            },
+            {
+                "title": "6.Johnson Ring Counter",
+                "link": "https://www.electronics-tutorials.ws/sequential/seq_6.html"
+            },
+            {
+                "title": "7.Conversion of Flip-flops",
+                "link": "https://www.electronics-tutorials.ws/sequential/conversion-of-flip-flops.html"
+            },
+            {
+                "title": "8.The Toggle Flip-flop",
+                "link": "https://www.electronics-tutorials.ws/sequential/toggle-flip-flop.html"
+            }
+        ]
+    },
+    "Systems": {
+        "topic_url": "https://www.electronics-tutorials.ws/systems/electronic-system.html",
+        "articles": [
+            {
+                "title": "1.Electronic Systems",
+                "link": "https://www.electronics-tutorials.ws/systems/electronic-system.html"
+            },
+            {
+                "title": "2.Open-loop System",
+                "link": "https://www.electronics-tutorials.ws/systems/open-loop-system.html"
+            },
+            {
+                "title": "3.Closed-loop Systems",
+                "link": "https://www.electronics-tutorials.ws/systems/closed-loop-system.html"
+            },
+            {
+                "title": "4.Feedback Systems",
+                "link": "https://www.electronics-tutorials.ws/systems/feedback-systems.html"
+            },
+            {
+                "title": "5.Negative Feedback Systems",
+                "link": "https://www.electronics-tutorials.ws/systems/negative-feedback.html"
+            }
+        ]
+    },
+    "Tools": {
+        "topic_url": "https://www.electronics-tutorials.ws/tools/coil-inductance-calculator.html",
+        "articles": [
+            {
+                "title": "1.Coil Inductance Calculator",
+                "link": "https://www.electronics-tutorials.ws/tools/coil-inductance-calculator.html"
+            },
+            {
+                "title": "2.Magnetic Field Calculator",
+                "link": "https://www.electronics-tutorials.ws/tools/magnetic-field-calculator.html"
+            },
+            {
+                "title": "3.L-pad Impedance Calculator",
+                "link": "https://www.electronics-tutorials.ws/tools/l-pad-impedance-calculator.html"
+            },
+            {
+                "title": "4.Pi-pad Impedance Calculator",
+                "link": "https://www.electronics-tutorials.ws/tools/pi-pad-impedance-calculator.html"
+            },
+            {
+                "title": "5.T-pad Impedance Calculator",
+                "link": "https://www.electronics-tutorials.ws/tools/t-pad-impedance-calculator.html"
+            }
+        ]
+    },
+    "Transformers": {
+        "topic_url": "https://www.electronics-tutorials.ws/transformer/transformer-basics.html",
+        "articles": [
+            {
+                "title": "1.Transformer Basics",
+                "link": "https://www.electronics-tutorials.ws/transformer/transformer-basics.html"
+            },
+            {
+                "title": "2.Transformer Construction",
+                "link": "https://www.electronics-tutorials.ws/transformer/transformer-construction.html"
+            },
+            {
+                "title": "3.Transformer Loading",
+                "link": "https://www.electronics-tutorials.ws/transformer/transformer-loading.html"
+            },
+            {
+                "title": "4.Multiple Winding Transformers",
+                "link": "https://www.electronics-tutorials.ws/transformer/multiple-winding-transformers.html"
+            },
+            {
+                "title": "5.The Autotransformer",
+                "link": "https://www.electronics-tutorials.ws/transformer/auto-transformer.html"
+            },
+            {
+                "title": "6.The Current Transformer",
+                "link": "https://www.electronics-tutorials.ws/transformer/current-transformer.html"
+            },
+            {
+                "title": "7.Three Phase Transformers",
+                "link": "https://www.electronics-tutorials.ws/transformer/three-phase-transformer.html"
+            },
+            {
+                "title": "8.Audio Transformer",
+                "link": "https://www.electronics-tutorials.ws/transformer/audio-transformer.html"
+            },
+            {
+                "title": "9.Transformer Voltage Regulation",
+                "link": "https://www.electronics-tutorials.ws/transformer/voltage-regulation.html"
+            }
+        ]
+    },
+    "Transistors": {
+        "topic_url": "https://www.electronics-tutorials.ws/transistor/tran_1.html",
+        "articles": [
+            {
+                "title": "1.Bipolar Transistor",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_1.html"
+            },
+            {
+                "title": "2.NPN Transistor",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_2.html"
+            },
+            {
+                "title": "3.PNP Transistor",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_3.html"
+            },
+            {
+                "title": "4.Transistor as a Switch",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_4.html"
+            },
+            {
+                "title": "5.Junction Field Effect Transistor",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_5.html"
+            },
+            {
+                "title": "6.The MOSFET",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_6.html"
+            },
+            {
+                "title": "7.MOSFET as a Switch",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_7.html"
+            },
+            {
+                "title": "8.Transistor Tutorial Summary",
+                "link": "https://www.electronics-tutorials.ws/transistor/tran_8.html"
+            },
+            {
+                "title": "9.Darlington Transistors",
+                "link": "https://www.electronics-tutorials.ws/transistor/darlington-transistor.html"
+            },
+            {
+                "title": "10.FET Current Source",
+                "link": "https://www.electronics-tutorials.ws/transistor/fet-current-source.html"
+            },
+            {
+                "title": "11.Open Collector Outputs",
+                "link": "https://www.electronics-tutorials.ws/transistor/open-collector-outputs.html"
+            }
+        ]
+    },
+    "Waveform Generators": {
+        "topic_url": "https://www.electronics-tutorials.ws/waveforms/waveforms.html",
+        "articles": [
+            {
+                "title": "1.Electrical Waveforms",
+                "link": "https://www.electronics-tutorials.ws/waveforms/waveforms.html"
+            },
+            {
+                "title": "2.Monostable Multivibrator",
+                "link": "https://www.electronics-tutorials.ws/waveforms/monostable.html"
+            },
+            {
+                "title": "3.Bistable Multivibrator",
+                "link": "https://www.electronics-tutorials.ws/waveforms/bistable.html"
+            },
+            {
+                "title": "4.Astable Multivibrator",
+                "link": "https://www.electronics-tutorials.ws/waveforms/astable.html"
+            },
+            {
+                "title": "5.Waveform Generators",
+                "link": "https://www.electronics-tutorials.ws/waveforms/generators.html"
+            },
+            {
+                "title": "6.555 Timer Tutorial",
+                "link": "https://www.electronics-tutorials.ws/waveforms/555_timer.html"
+            },
+            {
+                "title": "7.555 Oscillator Tutorial",
+                "link": "https://www.electronics-tutorials.ws/waveforms/555_oscillator.html"
+            },
+            {
+                "title": "8.555 Circuits Part 1",
+                "link": "https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html"
+            },
+            {
+                "title": "9.555 Circuits Part 2",
+                "link": "https://www.electronics-tutorials.ws/waveforms/555-circuits-part-2.html"
+            }
+        ]
+    }
+}
