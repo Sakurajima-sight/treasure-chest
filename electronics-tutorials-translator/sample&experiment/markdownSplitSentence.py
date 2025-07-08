@@ -30,7 +30,7 @@ def split_text_by_headings(md_content):
         if img_match:
             # 替换图片标签为占位符
             image_counter += 1
-            img_placeholder = f"__Image_Placeholder_{image_counter}__"
+            img_placeholder = f"Image_Placeholder_{image_counter}"
             img_placeholders[img_placeholder] = img_match.group(0)
             current_section["content"] += img_placeholder + "\n"
             continue
@@ -51,7 +51,7 @@ def split_text_by_headings(md_content):
     if current_section["title"]:
         sections.append(current_section)
     
-    header_content += img_placeholders["__Image_Placeholder_1__"] + "\n"
+    header_content += img_placeholders["Image_Placeholder_1"] + "\n"
 
     return header_content, sections, img_placeholders
 
@@ -77,7 +77,7 @@ def save_md_file(header_content, sections, output_path, img_placeholders):
             
             # 替换占位符为图片标签
             content_with_images = section["content"]
-            for placeholder, img_tag in img_placeholders.items():
+            for placeholder, img_tag in reversed(list(img_placeholders.items())):
                 content_with_images = content_with_images.replace(placeholder, img_tag)
             
             # 写入替换后的内容

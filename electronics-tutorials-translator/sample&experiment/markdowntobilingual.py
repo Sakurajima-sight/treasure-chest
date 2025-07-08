@@ -30,8 +30,20 @@ def clean_and_extract_markdown(text):
     else:
         content = text.strip()
 
-    # 去除重复标签，例如多个 __Image_Placeholder_1__ 保留一个
-    content = re.sub(r'(\b_+Image_Placeholder_\d+_+\b)(?:\s*\1)+', r'\1', content)
+    # 去除无论有无空格的重复 __Image_Placeholder_x__ 占位符
+    # 例如: "__Image_Placeholder_7____Image_Placeholder_7__" 也能被合并
+    content = re.sub(
+        r'((?:_+Image_Placeholder_\d+_+))(?:\s*\1)+',
+        r'\1',
+        content
+    )
+
+    # 再加一个专门处理连在一起的情况（比如直接 "__Image_Placeholder_7____Image_Placeholder_7__"）
+    content = re.sub(
+        r'((?:_+Image_Placeholder_\d+_+)){2,}',
+        r'\1',
+        content
+    )
 
     return content
 
